@@ -1,0 +1,4 @@
+# Staging zone for data that has passed the validation stage checks
+# (created in Experiment 4, Step 1). Contents are produced at run time.
+*
+!.gitignore
