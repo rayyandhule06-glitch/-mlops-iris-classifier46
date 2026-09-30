@@ -1,0 +1,10 @@
+# Feast imports EVERY .py file it finds in this directory as a
+# feature-definition module. Only features.py actually defines Feast
+# objects; the other scripts are a data-preparation helper and online /
+# offline retrieval consumers, so they must be excluded here or their
+# module-level code would execute on every `feast apply`.
+prepare_feature_source.py
+get_online_features.py
+get_historical_features.py
+reuse_features_for_clustering.py
+test_workflow.py

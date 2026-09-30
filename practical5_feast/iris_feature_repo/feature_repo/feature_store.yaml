@@ -1,0 +1,9 @@
+# feature_store.yaml
+project: iris_feature_repo # name of your Feast project.
+provider: local            # We are running Feast locally
+registry: data/registry.db # The registry stores metadata about your Feast objects.
+online_store:
+  type: sqlite             # Use SQLite as the online feature store.
+  path: data/online_store.db # store data locally in data/online_store.db
+entity_key_serialization_version: 3
+

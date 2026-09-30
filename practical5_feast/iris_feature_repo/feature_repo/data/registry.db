@@ -1,0 +1,76 @@
+
+K
++
+	sample_id"	sample_idJiris_feature_repo
+ûÏóÕ¨ò†„ûÏóÕ¨ò†„
+H
+(
+__dummy"
+__dummy_idJiris_feature_repo
+ûÏóÕ€ü•„ûÏóÕ€ü•„1"$3287be7b-f6c7-4c0e-ac50-0726f19b7531*ĞóÕÈÈ©;2š
+à
+iris_engineered_featuresiris_feature_repo	sample_id"
+
+sepal_area"
+
+petal_area"
+sepal_to_petal_length_ratio"
+petal_length_bin2€ç„:­event_timestamp*created_timestampZdata/iris_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢iris_features_source’ûÏóÕÈØ—["ûÏóÕÈÜîƒ@b
+	sample_id’latest5
+ûÏóÕ˜Í¢„ĞóÕ€ºÑ$
+€éîÆè¸ ÖûÏóÕ02–
+Ü
+iris_measurementsiris_feature_repo	sample_id"
+sepal length (cm)"
+sepal width (cm)"
+petal length (cm)"
+petal width (cm)2€ç„:­event_timestamp*created_timestampZdata/iris_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢iris_features_source’ûÏóÕÈØ—["ûÏóÕÈÜîƒ@b
+	sample_id’latest5
+ûÏóÕ°»Ï„ĞóÕˆÆ•;
+€éîÆ˜ˆ«ÖûÏóÕ0:Š
+é
+iris_feature_serviceiris_feature_repo›
+iris_measurements
+sepal length (cm)
+sepal width (cm)
+petal length (cm)
+petal width (cm)*created_timestamp:created_timestampByevent_timestamp*created_timestampZdata/iris_features.parquet¢iris_features_source’ûÏóÕÈØ—["ûÏóÕÈÜîƒZfeatureViewŸ
+iris_engineered_features
+
+sepal_area
+
+petal_area
+sepal_to_petal_length_ratio
+petal_length_bin*created_timestamp:created_timestampByevent_timestamp*created_timestampZdata/iris_features.parquet¢iris_features_source’ûÏóÕÈØ—["ûÏóÕÈÜîƒZfeatureView
+ûÏóÕğŠô„ûÏóÕğŠô„R“
+Ê
+,feast.infra.online_stores.sqlite.SqliteTable"™
+kC:\Users\rayya\mlops-iris-classifier46\practical5_feast\iris_feature_repo\feature_repo\data\online_store.db*iris_feature_repo_iris_engineered_features
+Ã
+,feast.infra.online_stores.sqlite.SqliteTable"’
+kC:\Users\rayya\mlops-iris-classifier46\practical5_feast\iris_feature_repo\feature_repo\data\online_store.db#iris_feature_repo_iris_measurementsbÁevent_timestamp*created_timestampZdata/iris_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢iris_features_sourceªiris_feature_repo’ûÏóÕÈØ—["ûÏóÕÈÜîƒŠ1
+
+iris_feature_repo
+ûÏóÕ¹í[ûÏóÕ¹í[’á
+ó
+iris_engineered_featuresiris_feature_repo"feature_view*
+à
+iris_engineered_featuresiris_feature_repo	sample_id"
+
+sepal_area"
+
+petal_area"
+sepal_to_petal_length_ratio"
+petal_length_bin2€ç„:­event_timestamp*created_timestampZdata/iris_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢iris_features_source’ûÏóÕÈØ—["ûÏóÕÈÜîƒ@b
+	sample_id’latest
+ûÏóÕ˜Í¢„ûÏóÕ˜Í¢„2ûÏóÕ¨Ë„B$dfa8f674-89bb-4124-b31f-eca44abea09e
+è
+iris_measurementsiris_feature_repo"feature_view*ı
+Ü
+iris_measurementsiris_feature_repo	sample_id"
+sepal length (cm)"
+sepal width (cm)"
+petal length (cm)"
+petal width (cm)2€ç„:­event_timestamp*created_timestampZdata/iris_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢iris_features_source’ûÏóÕÈØ—["ûÏóÕÈÜîƒ@b
+	sample_id’latest
+ûÏóÕ°»Ï„ûÏóÕ°»Ï„2ûÏóÕ°Õğ„B$9f083549-5b30-4961-bbb1-8751b1337811

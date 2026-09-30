@@ -1,0 +1,9 @@
+# Experiment 5 — Feast feature store environment
+# Created with: py -3.13 -m venv .venv-feast
+# Install with:  .venv-feast\Scripts\python.exe -m pip install -r practical5_feast/requirements-feast.txt
+feast==0.66.0
+pandas==2.3.3
+pyarrow==25.0.1
+# scikit-learn is only needed by reuse_features_for_clustering.py (Step 8),
+# which trains a KMeans clustering model over the features served by Feast.
+scikit-learn==1.9.1
