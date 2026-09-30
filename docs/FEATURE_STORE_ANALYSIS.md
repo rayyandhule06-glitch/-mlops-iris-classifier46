@@ -178,6 +178,13 @@ exactly what would genuinely have been available for prediction at that historic
 * **`feast apply` reports 1 entity + 2 feature views**, not the 5 entities/views shown in the
   manual's sample terminal output — that output is from before the driver example files were
   deleted, and the manual's own verification criterion is "1 entity + 2 feature views created".
+* **The manual's "150 rows" expectation is inconsistent with its own script.** The verification
+  section states that `get_historical_features.py` should produce "a DataFrame with exactly 150
+  rows (matching the Experiment 4 dataset size)". In reality the Experiment 4 dataset is **149
+  rows** (one exact duplicate record is removed by the preprocess stage), and the manual's own
+  Step 7 script calls `.head(5)`, so it retrieves **5** point-in-time-correct rows. The script's
+  behaviour is correct; the verification wording is not. All 8 feature columns are fully populated
+  for those rows, which is the property the check is really about.
 * **Materialization is a scheduled step, not a one-time one.** `materialize-incremental` must be
   re-run to push new feature values into the online store; the online store only ever holds the
   latest value per entity.
