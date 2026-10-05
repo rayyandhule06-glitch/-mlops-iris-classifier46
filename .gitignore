@@ -36,3 +36,4 @@ practical5_feast/iris_feature_repo/feature_repo/data/online_store.db
 mlflow.db
 mlartifacts/
 confusion_matrix_*.png
+.coverage
