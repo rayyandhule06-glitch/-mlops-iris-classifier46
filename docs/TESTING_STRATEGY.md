@@ -19,7 +19,7 @@ The objective of Experiment 8 is to:
 
 The following tools were used:
 
-* **Python 3.11.9**
+* **Python 3.14.0**
 * **pytest 9.1.1** – for running automated tests.
 * **pytest-cov 7.1.0** – for measuring code coverage.
 * **scikit-learn** – for model training and evaluation.
@@ -121,7 +121,7 @@ pytest --cov=src --cov-report=term-missing --junitxml=test-results.xml
 The overall coverage result was:
 
 ```text
-TOTAL    427    356    17%
+TOTAL    430    357    17%
 ```
 
 Important pipeline coverage results:
